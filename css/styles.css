@@ -36,8 +36,22 @@ body {
   width: 0%;
   content: '.';
   height: 3px;
+
 }
 .navbar .navbar-nav .nav-link:hover::after {
   width: 100%;
+}
+
+
+.hero-image {
+  display: flex;
+  background-image: url("../images/hero.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* border: 1px solid black; */
+  
 }
 
