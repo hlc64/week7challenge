@@ -55,3 +55,44 @@ body {
   
 }
 
+.d-flex {
+  display: flex!important;
+ 
+}
+
+.btn {
+  box-sizing: border-box;
+}
+
+.fa-search:before {
+  content: "\f002";
+}
+
+.form-control {
+  height: auto;
+}
+.tm-search-input {
+  width: 360px;
+  border-radius: 0;
+  padding: 12px 15px;
+  color: #009999;
+  border: none;
+}
+
+#cardContainer {
+  /* border: 2px solid red; */
+  
+}
+
+#pageTitle {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  /* border: 2px solid red */
+
+}
+
+/* .col {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+} */
